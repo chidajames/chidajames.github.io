@@ -1,0 +1,30 @@
+* {box-sizing: border-box}
+
+
+.border{
+	margin-top: 50px;
+	margin-right: 300px;
+	margin-left:100px;
+}
+
+.right{
+    position: relative;
+    animation-name: right;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes right{
+        0%   {right: -300px;opacity: 0;}
+        100% {right: 0px;opacity: 1;}
+}
+
+.b {
+   
+    background-image: url("coding.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

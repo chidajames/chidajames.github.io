@@ -1,0 +1,43 @@
+.rowrule{
+	height: 100px;
+}
+
+.border{
+	margin-left: 300px;
+	margin-top: 100px;
+	margin-right: 300px;
+}
+.ion-social-github{
+	font-size: 30px
+}
+
+.ion-social-facebook{
+font-size: 30px
+}
+
+.ion-social-instagram{
+font-size: 30px
+}
+
+.ion-social-linkedin{
+font-size: 30px
+}
+
+a{
+	color: black;
+	text-decoration: none;
+
+}
+
+.b {
+    /* The image used */
+    background-image: url("back_1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

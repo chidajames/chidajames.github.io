@@ -1,0 +1,187 @@
+.large {
+  width:200px;
+  height: 200px;
+}
+
+.large > h3 {
+  font-size: 24px;
+}
+
+.medium {
+  width: 140px;
+  height:140px;
+}
+
+
+.medium > h3 {
+  font-size: 18px;
+}
+
+
+.small {
+  width:100px;
+  height:100px;
+}
+
+
+.small > h3 {
+  font-size: 16px;
+}
+
+
+.bubble {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 50%;
+  background-color: rgba(75, 101, 132,.2);
+  border: 5px solid rgba(255, 190, 118,1.0);
+  text-align: center
+}
+
+.bubble > h3 {
+  z-index: 100;
+  display: inline-block;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.no-dec {
+  text-decoration: none;
+  color: white;
+  float: center;  
+}
+
+.no-dec:hover, .no-dec:focus {
+  text-decoration: none;
+  color: white;
+}
+
+.bubble:hover, .bubble:focus {
+  border: 10px solid rgba(246, 229, 141,1.0);
+  transform: scale(1.1);
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.stick-bottom {
+  float: bottom;
+}
+
+.stick-right{
+  float: right;
+}
+
+.stick-left {
+  float: left;
+}
+
+.stick-top {
+  float: top;
+}
+
+.image{
+  height: 300px;
+  width:300px;
+  border-radius: 50%;
+}
+
+.ion-social-github-outline {
+  
+
+}
+h2{
+  font-size: 45px;
+
+}
+
+.ion-social-linkedin-outline {
+  
+}
+
+.gif {
+  position: absolute;
+    background:#1abc9c; 
+}
+
+.gif:hover ,.gif:focus {
+  opacity: 0;
+}
+
+.back {
+    /* The image used */
+    background-image: url("cover_9.jpg");
+
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+    /* Center and scale the image nicely */
+   /* background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.ion-social-github{
+}
+
+.down{
+  position: relative;
+  animation-name: down;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes down{
+  0%   {top: 1000px;opacity: 0}
+  100% {top: 0px;opacity: 1}
+}
+
+.up{
+  position: relative;
+  animation-name: up;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes up{
+  0%   {top: -1000px;opacity: 0}
+  100% {top: 0px;opacity: 1}
+}
+
+.left{
+  position: relative;
+  animation-name: left;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes left{
+  0%   {left: -1000px;opacity: 0}
+  100% {left: 0px;opacity: 1}
+}
+
+.right{
+  position: relative;
+  animation-name: right;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes right{
+  0%   {left: 1000px;opacity: 0}
+  100% {left: 0px;opacity: 1}
+}
+
+.pop{
+  position: relative;
+  animation-name: pop;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes pop{
+  0%   {opacity: 0}
+  50%   {opacity: 0}
+  100% {opacity: 1}
+}
+
+

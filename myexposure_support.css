@@ -1,0 +1,69 @@
+.back {
+    background-image: url("projects_1.jpg");
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one{
+	margin: 20px;
+	padding: 130px;
+	height: 50px;
+	width: 50px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-position: center;
+	background-image: url(speckbit.jpg);
+	color: white;
+}
+
+.two{
+	margin: 20px;
+	padding: 130px;
+	height: 50px;
+	width: 50px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-image: url(aptech.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+}
+
+.three{
+	margin: 20px;
+	padding: 130px;
+	height: 50px;
+	width: 50px;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-image: url(expertshub.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+}
+
+.four{
+	margin: 20px;
+	padding: 130px;
+	height: 50px;
+	width: 50px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background-image: url(micoth.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	background-color: black;
+}
+
+.four:hover	{
+	position: relative;
+	animation-name: move;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+}

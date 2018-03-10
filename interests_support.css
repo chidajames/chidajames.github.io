@@ -1,0 +1,89 @@
+/*body, html {
+    height: 100%;
+    margin: 0;
+}
+*/
+.i1 {
+   
+    background-image: url("robotics.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.i2 {
+   
+    background-image: url("iot.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.i3 {
+   
+    background-image: url("ai.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.i4 {
+   
+    background-image: url("embedded.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b{
+   
+    background:url("interests_2.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border{
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left:340px;
+}
+
+.top{
+    position: relative;
+    animation-name: top;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes top{
+        0%   {top: -500px;opacity: 0;}
+        100% {top: 0px;opacity: 1;}
+}
+
+.bottom{
+    position: relative;
+    animation-name: bottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes bottom{
+        0%   {top: 500px;opacity: 1;}
+        100% {top: 0px;opacity: 1;}
+}
+
+.head{
+    position: relative;
+    top: 5px;
+    padding-left: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: 100px;
+}

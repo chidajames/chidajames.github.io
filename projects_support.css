@@ -1,0 +1,56 @@
+.border{
+	margin-top: 0px;
+	padding-left: 150px;
+}
+
+
+.w:hover  .h,.img1{
+	opacity: 0;
+}
+}
+
+.body {
+    display: table;
+    background-color: green;
+}
+
+.w{
+	width: 30%;
+	height: 700px;
+	
+}
+p{
+	opacity: 1;
+	text-align: center;
+	transform: translateY(50%);
+	font-size: 30px;
+	color: black;
+}
+
+.w:hover .text{
+	opacity: 1;
+
+}
+
+
+.text{
+	opacity: 0;
+
+}
+
+.w:hover .h{
+	opacity: 0.3;
+}
+
+.img1{
+	opacity: 1;
+	background-image: url(todo.jpg);
+
+}
+
+.back {
+   background-image: url("cover_2.jpg");
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}

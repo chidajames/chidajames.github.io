@@ -1,0 +1,95 @@
+.border{
+	margin-top: 0%;
+	margin-left: 10%;
+	margin-right: 60%;
+}
+
+.img{
+	
+	padding-top: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.ion-briefcase{
+	font-size: 20px;
+	text-align: left;
+}
+
+.ion-ios-telephone{
+	font-size: 20px;
+	text-align: left;
+}
+.ion-ios-home{
+	font-size: 20px;
+	text-align: left;
+}
+
+.ion-android-mail{
+	font-size: 20px;
+	text-align: left;
+
+}
+
+.back {
+    background-image: url("coffee.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left{
+  position: relative;
+  animation-name: left;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes left{
+  0%   {left: -1000px;opacity: 0;}
+  100% {left: 0px;opacity: 1;}
+}
+
+.left1{
+  position: relative;
+  animation-name: left1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes left1{
+  0%   {left: -1000px;opacity: 0;}
+  100% {left: 0px;opacity: 1;}
+}
+
+.pop{
+  position: relative;
+  animation-name: pop;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+@keyframes pop{
+  0%   {opacity: 0;}
+  
+  100% {opacity: 1;}
+}
