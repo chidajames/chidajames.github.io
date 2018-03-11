@@ -11,11 +11,15 @@ html {
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    background: transparent;  /* just make scrollbar invisible */
 }
 
 .font{
 	font-family: 'Indie Flower', cursive;
 	color: black;
 
+}
+
+.fontrobo{
+     font-family: 'Roboto', sans-serif;
 }

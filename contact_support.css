@@ -72,7 +72,7 @@ a {
 .left1{
   position: relative;
   animation-name: left1;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-timing-function: ease-in;
 }
 
@@ -84,7 +84,7 @@ a {
 .pop{
   position: relative;
   animation-name: pop;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-timing-function: linear;
 }
 

@@ -19,7 +19,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: rgba(236, 240, 241,0.8);
+    background-color: rgba(236, 240, 241,.8);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -94,7 +94,7 @@ body {
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: rgba(236, 240, 241,0.7);
+    background-color: rgba(236, 240, 241,0.9);
     position: relative;
     border-radius: 6px;
 }

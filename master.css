@@ -81,6 +81,7 @@
   height: 300px;
   width:300px;
   border-radius: 50%;
+  border: 5px solid rgba(255, 190, 118,1.0);
 }
 
 .ion-social-github-outline {
@@ -123,59 +124,62 @@ h2{
 .ion-social-github{
 }
 
+.ion-social-linkedin{
+}
+
 .down{
   position: relative;
   animation-name: down;
-  animation-duration: 2.5s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
 }
 
 @keyframes down{
-  0%   {top: 1000px;opacity: 0}
+  0%   {top: 700px;opacity: 0}
   100% {top: 0px;opacity: 1}
 }
 
 .up{
   position: relative;
   animation-name: up;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-timing-function: linear;
 }
 
 @keyframes up{
-  0%   {top: -1000px;opacity: 0}
+  0%   {top: -700px;opacity: 0}
   100% {top: 0px;opacity: 1}
 }
 
 .left{
   position: relative;
   animation-name: left;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-timing-function: linear;
 }
 
 @keyframes left{
-  0%   {left: -1000px;opacity: 0}
+  0%   {left: -700px;opacity: 0}
   100% {left: 0px;opacity: 1}
 }
 
 .right{
   position: relative;
   animation-name: right;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-timing-function: linear;
 }
 
 @keyframes right{
-  0%   {left: 1000px;opacity: 0}
+  0%   {left: 700px;opacity: 0}
   100% {left: 0px;opacity: 1}
 }
 
 .pop{
   position: relative;
   animation-name: pop;
-  animation-duration: 3s;
-  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation-timing-function: linear;
 }
 
 @keyframes pop{
